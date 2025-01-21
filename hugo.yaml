@@ -1,0 +1,77 @@
+baseURL: https://jnelle.github.io/
+languageCode: en-us
+title: Jimbos Blog
+theme: ["PaperMod"]
+mainsections: ["posts", "today-i-learned"]
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts/
+          weight: 5
+        - name: Today I learned
+          url: today-i-learned/
+          weight: 6
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+params:
+  contact:
+    email: jimmy@nelle-bendlage.de
+
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  keywords: [Blog, Tech-Blog, Go, Apple, Linux, Windows, Android, iOS, Hugo]
+  author: jnelle
+  images: ["https://avatars.githubusercontent.com/u/36324542?v=4"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  homeInfoParams:
+    enabled: true # needs to be explicitly set
+    Title: Hi there 👋
+    Content: "Welcome to my technical blog, where I share my experiences and insights on various technologies."
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/jnelle"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/jimmy-nelle-690111313/"
+    - name: "Message"
+      url: "mailto:jimmy@nelle.sh"
