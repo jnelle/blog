@@ -39,6 +39,8 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      - name: Clone theme
+        run: git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
       - name: Checkout
         uses: actions/checkout@v4
         with:
