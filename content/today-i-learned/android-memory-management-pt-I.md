@@ -3,7 +3,7 @@ date: '2025-01-20T10:09:33+01:00'
 draft: false
 title: 'Android Memory Management - Part I'
 author: "Jimmy"
-tags: ["android"]
+tags: ["Android"]
 cover:
     image: "images/memory-types.svg" # image path/url
     alt: "memory-types" # alt text

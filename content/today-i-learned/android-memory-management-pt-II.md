@@ -3,7 +3,7 @@ date: '2025-01-21T10:09:33+01:00'
 draft: false
 title: 'Android Memory Management - Part II'
 author: "Jimmy"
-tags: ["android"]
+tags: ["Android"]
 cover:
     image: "images/memory-pages-android.png" # image path/url
     alt: "memory-pages" # alt text
