@@ -33,7 +33,7 @@ where
 
 &nbsp; 
 
-![WHOA!](/images/whoa-spit-out-drink.gif "WHOA!")
+![WHOA!](https://jnelle.github.io/blog/images/whoa-spit-out-drink.gif "WHOA!")
 
 &nbsp;
 

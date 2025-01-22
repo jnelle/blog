@@ -1,4 +1,4 @@
-baseURL: https://jnelle.github.io/
+baseURL: https://jnelle.github.io/blog/
 languageCode: en-us
 title: Jimbos Blog
 theme: ["PaperMod"]
@@ -48,6 +48,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  canonifyURLs: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
